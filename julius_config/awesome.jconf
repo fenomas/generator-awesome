@@ -1,0 +1,32 @@
+
+-dfa grammar/awesome.dfa
+-v grammar/awesome.dict
+
+-h voxforge/acoustic_model_files/hmmdefs
+-hlist voxforge/acoustic_model_files/tiedlist
+
+
+-input mic
+-quiet
+
+
+
+###   all the settings below here are 
+###   copied from the voxforge quickstart guide
+
+
+-spmodel "sp"		# HMM model name
+-multipath
+-gprune safe
+-iwcd1 max
+-iwsppenalty -70.0	# transition penalty for the appended sp models
+-smpFreq 16000		# sampling rate (Hz)
+-iwsp			# append a skippable sp model at all word ends
+-penalty1 5.0		
+-penalty2 20.0	
+-b2 200                 # beam width on 2nd pass (#words)
+-sb 200.0		# score beam envelope threshold
+
+
+
+

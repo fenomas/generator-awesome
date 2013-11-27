@@ -1,0 +1,53 @@
+% NS_B
+<s>        sil
+
+% NS_E
+</s>        sil
+
+
+
+%OK
+OKAY        ow k ey
+
+%PHOTO
+PHOTO       f ow t ow
+%SHOP
+SHOP        sh aa p
+
+%THANKYOU
+THANKYOU    th ae ng k y uw
+
+
+%LAYCMD
+DELETE      d ax l iy t
+DUPLICATE   d uw p l ax k ey t
+NEW         n y uw
+
+%LAYER
+LAYER       l ey er
+
+
+%ZOOM
+ZOOM        z uw m 
+
+%INOUT
+IN          ih n
+OUT         aw t
+
+%RANDOM
+RANDOM      r ae n d ah m
+%COLOR
+COLOR       k ah l er
+
+
+%SINGLECOMMAND
+UNDO        ah n d uw
+CLOUDS      k l aw d z
+ENHANCE     ix n hh ae n s
+
+
+
+%VOICE
+VOICE       v oy s
+%MODE
+MODE        m ow d

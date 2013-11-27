@@ -1,0 +1,13 @@
+{
+  "name": "awesome-mode",
+  "version": "0.0.1",
+  "description": "Experimental plugin to do some goofy things",
+  "main": "main.js",
+  "generator-core-version": "~1",
+  "license": "Public Domain",
+  "dependencies": {
+      "leapjs": "~0.2.2"
+  },
+  "devDependencies": {
+  }
+}
