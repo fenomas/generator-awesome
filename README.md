@@ -17,6 +17,7 @@ This is an experimental node.js plugin for Photoshop's [Generator][1] extensibil
  3. In a terminal, from `generator-core` folder, run:  `npm install`
  4. Clone or download [this][4] repository, and from inside the folder run `npm install`
  5. Install [julius][5]. The easiest way is probably to use [macports][6] and run the command `sudo port install julius`, but it can also be built from source, or perhaps run from binaries.
+ 6. Note: if you have trouble installing julius on Mac, installing portaudio seems to fix the problem. Try doing `sudo port install portaudio` and then try installing julius again.
 
 ### Using the plugin
 
