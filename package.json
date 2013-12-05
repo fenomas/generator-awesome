@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Experimental plugin to do some goofy things",
   "main": "main.js",
-  "generator-core-version": "~1",
+  "generator-core-version": ">=1.0",
   "license": "Public Domain",
   "dependencies": {
       "leapjs": "~0.2.2"
