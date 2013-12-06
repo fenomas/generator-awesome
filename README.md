@@ -4,6 +4,9 @@ Awesome-mode Generator Plugin
 
 This is an experimental node.js plugin for Photoshop's [Generator][1] extensibility layer. It currently implements three possibly-fun-and-or-humorous features: voice recognition, spoken feedback, and brush drawing via Leap Motion.
 
+#### Demo:
+
+[![Video demo of plugin](http://andyhall.github.io/generator-awesome/images/generator-demo.png)](https://www.youtube.com/watch?v=_B9gF-iRhiU)
 
 #### Notes:
 * This plugin is not meant for real-world use! It demonstrates some random things that can be done with Generator and might perhaps inspire some more useful development.
@@ -43,8 +46,6 @@ Recognized commands:
 
 When enabled, the plugin responds to voice commands via the `say` utility. Enable it by saying `Okay Photoshop.. Voice mode`.
 
-
-
 ### Leap motion
 
 If you have a Leap motion device, connect it any time and point with one finger. If you hover on the near side of the device (the side towards you), the plugin will mark the hover position with guide lines. To draw, move your finger forward over the plane of the device. Performance is poor for this right now - finding a faster way to draw is on the todo list.
@@ -56,4 +57,4 @@ If you have a Leap motion device, connect it any time and point with one finger.
   [4]: https://github.com/andyhall/generator-awesome
   [5]: http://julius.sourceforge.jp/
   [6]: http://www.macports.org/
-  
+ 
