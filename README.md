@@ -43,6 +43,8 @@ Recognized commands:
 
 When enabled, the plugin responds to voice commands via the `say` utility. Enable it by saying `Okay Photoshop.. Voice mode`.
 
+
+
 ### Leap motion
 
 If you have a Leap motion device, connect it any time and point with one finger. If you hover on the near side of the device (the side towards you), the plugin will mark the hover position with guide lines. To draw, move your finger forward over the plane of the device. Performance is pretty poor for this right now - finding a faster way to draw is on the todo list.
