@@ -15,6 +15,10 @@
     // may not be found in path when plugin is run from
     // PS plugins directory
     
+    // note that if you run this 'built-in' to PS by putting the plugin 
+    // inside the Photoshop CC/Plug-ins folder, the above path will fail - 
+    // command_path will need to be '/usr/bin/julius' or whatever.
+    
     
     
     
