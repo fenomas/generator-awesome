@@ -77,7 +77,7 @@
         
         var f = frame.fingers;
         var hovering = (f && f.length==1 && f[0].valid);
-        log(f.length+" - "+hovering);
+//        log(f.length+" - "+hovering);
         if (!hovering) {
             framesTouching = 0;
             emitter.emit( 'leap-hover', false, false );
